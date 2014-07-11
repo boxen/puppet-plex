@@ -4,7 +4,7 @@ describe 'plex' do
   it do
     should contain_package('Plex').with({
       :provider => 'compressed_app',
-      :source   => 'http://plex.r.worldssl.net/plex-laika/0.9.5.4/Plex-0.9.5.4-973998f.zip'
+      :source   => 'http://downloads.plexapp.com/plex-media-server/0.9.9.12.504-3e7f93c/PlexMediaServer-0.9.9.12.504-3e7f93c-OSX.zip'
     })
   end
 end
